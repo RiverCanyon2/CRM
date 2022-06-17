@@ -13,9 +13,12 @@
     "@emotion/styled": "^11.9.3",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.8.4",
+    "aws-sdk": "^2.1156.0",
+    "dotenv": "^16.0.1",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "eslint": "8.17.0",

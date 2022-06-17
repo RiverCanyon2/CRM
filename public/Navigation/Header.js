@@ -16,7 +16,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 
 import Link from 'next/link'
 
-const pages = ['Accounts', 'Pricing', 'Blog'];
+const pages = ['Representatives', 'Pricing', 'Blog'];
 const settings = ['Admin Panel','Profile', 'Logout'];
 
 const Header = () => {
