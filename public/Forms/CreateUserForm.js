@@ -2,11 +2,18 @@ import {FormControl, TextField, Typography, InputAdornment, Container, InputLabe
 import { IconButton, Visibility, VisibilityOff } from '@mui/icons-material'
 import SubmitButton from '../Components/SubmitButton'
 import { useState } from 'react'
+import axios from 'axios'
 
 const CreateUserForm = () => {
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
+
+    const response = await axios.post('/api/users/create-user', {
+        userInfo
+      })
+    console.log(response)
+
     setUserInfo({
       first: '',
       last: '',
